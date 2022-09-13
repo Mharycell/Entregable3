@@ -1,0 +1,32 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+  }
+
+  .Card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 8 px rgb(48, 47, 47);
+    background-color: lightblue;
+    width: 100%;
+    height: auto;
+  }
+  
+  .App {
+    text-align: center;   
+  }
+
+  .information{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+
+  .rickAndMorty-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
