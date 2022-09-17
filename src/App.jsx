@@ -20,7 +20,7 @@ function App() {
 	return (
 		<div className='App'>
 			<Header />
-			<main>
+			<main className='main'>
 				<Search rickandmorty={rick} />
 				<div>
 					<ul className='rickAndMorty-container'>
