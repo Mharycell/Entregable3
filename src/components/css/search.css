@@ -6,19 +6,3 @@
 	gap: 3rem;
 }
 
-.rickAndMorty-container {
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;
-}
-
-.input {
-	width: 50%;
-	height: 2.5rem;
-	border-radius: 10px;
-	background-color: rgb(229, 127, 255);
-}
-
-.input:hover {
-	background-color: lightcoral;
-}

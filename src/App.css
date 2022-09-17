@@ -3,6 +3,8 @@
 	box-sizing: border-box;
 }
 
+
+/* 
 .Container {
 	display: flex;
 	align-items: center;
@@ -46,23 +48,16 @@ main {
     flex-wrap: wrap;
     list-style: none;
   }
-  
-    /* .image{
-      width: 100%;
-      height: 10rem;
-      position: relative;
-      
-    } */
-  
+       
     .input{
       width: 50%;
       height: 2.5rem;
       border-radius: 10px;
       background-color: rgb(43, 201, 175);
-    }
+}
   
     .input:hover{
       background-color: rgb(181, 241, 237);
-    }
+}
 
-
+ */

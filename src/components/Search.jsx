@@ -28,15 +28,7 @@ const Search = ({ rickandmorty, searchDesdeProps }) => {
 					<h2>Population: </h2>
 					<p>{rickandmorty.residents?.length}</p>
 				</li>
-			</ul>
-			{/* <h1>{rick.name}</h1> */}
-			{/* <div>
-				<ul className='information'>
-					<li>Type: {rick.type}</li>
-					<li>Dimension: {rick.dimension}</li>
-					<li>Population: {rick.residents?.length}</li>
-				</ul>
-			</div> */}
+			</ul>			
 			<input
 				className='input'
 				type='text'
