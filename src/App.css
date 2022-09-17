@@ -1,100 +1,32 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-sizing: border-box;
-  }
-  
-  .Container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;    
-    /* background-color: rgb(178, 178, 215); */
-    width: 100%;
-    height: auto;
-  }
-  
-  .App {
-    text-align: center;       
-  }
-  
-  .App button{
-    width: 10%;
-    height: 2.5rem;
-    border-radius: 10px;
-  }
-
-  /* .Card img{
-    height: 15rem;
-    width: auto;
-    border-radius: 10px;
-    overflow: hidden;
-    gap: 5px;
-    position: relative;
-    box-shadow: 2px 2px 8px rgb(22, 22, 22);
-  }
-
-  .Card_status{
-    position: absolute;
-    top: 1.5rem;
-    left: 0;
-    width: 7rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    text-align: left;
-    border-bottom-right-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    padding: 0 0.5rem;
-  } */
-
-.Card{
-    height: 15rem;
-    width: auto;
-    overflow: hidden;
-    position: relative;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	box-sizing: border-box;
 }
 
-.Card__status{
-    position: absolute;
-    top: 1.5rem;
-    left: 0;
-    width: 7rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    text-align: left;
-    border-bottom-right-radius: 0.5rem;
-    border-top-right-radius:0.5rem;
-    background-color: var(--card-background);
-    color: #FBFBFB;
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 0.5rem;
-    align-items: center;
+.Container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
 }
 
-.Card img{
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+.App {
+	text-align: center;
 }
 
-.Card__data{
-  padding: 1rem;
+.App button {
+	width: 10%;
+	height: 2.5rem;
+	border-radius: 10px;
 }
 
-.Card__data * {
-  margin: 0;
-  padding: 0;
-}
-
-.Card__data ul{
-  list-style: none;
-  text-align: left;
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 0.25rem;
-  color: #FBFBFB
+main {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
 }
 
 .Card__data ul h5{
