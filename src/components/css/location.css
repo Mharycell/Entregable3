@@ -1,0 +1,48 @@
+.rickAndMorty-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.Location {
+	display: flex;
+	margin-bottom: 20px;
+	height: 190px;
+	background: #3d3535;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 0 0 8px rgb(0 0 0 / 20%);
+}
+
+.Card__image img {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.Card__data {
+	padding: 12px 10px 0 15px;
+}
+
+.Card__data h2 {
+	font-size: 1.5rem;
+}
+
+.Card__data ul {
+	list-style: none;
+	padding: 0;
+}
+
+.Card__data ul h5 {
+	font-size: 0.8rem;
+	margin-bottom: 3.5px;
+	color: hsla(0, 0%, 100%, 0.4);
+}
+
+.Card__data ul li {
+	margin: 0 0 8px;
+}
