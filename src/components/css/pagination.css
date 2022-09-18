@@ -1,0 +1,36 @@
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	padding: 30px;
+}
+
+.pagination button {
+	background-color: #1fa30f;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 50%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.pagination svg {
+	width: 10px;
+}
+
+.pagination button[disabled] {
+	background-color: #474747;
+	cursor: no-drop;
+}
+
+.pagination input {
+	height: 30px;
+	width: 50px;
+	text-align: center;
+	border: 1px solid #242424;
+	border-radius: 3px;
+}
