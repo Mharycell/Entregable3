@@ -2,9 +2,7 @@ import React from 'react'
 import './css/search.css'
 import { useState, useEffect } from 'react'
 
-const Search = ({ rickandmorty, searchLocation, type, setTypeLocation }) => {
-	
-	
+const Search = ({ rickandmorty, searchLocation, typeLocation, setTypeLocation }) => {
 	return (
 		<div className='Search'>
 			<div className='information'>
@@ -31,7 +29,7 @@ const Search = ({ rickandmorty, searchLocation, type, setTypeLocation }) => {
 				<input
 					className='input'
 					type='text'
-					value={type}
+					value={typeLocation}
 					onChange={(e) => setTypeLocation(e.target.value)}
 					placeholder='Search Location'
 				/>
