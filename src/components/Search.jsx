@@ -2,16 +2,9 @@ import React from 'react'
 import './css/search.css'
 import { useState, useEffect } from 'react'
 
-const Search = ({ rickandmorty, searchDesdeProps }) => {
-	const [typeLocation, setTypeLocation] = useState('')
-	useEffect(() => {
-		const searchLocation = () => {
-			axios
-				.get(`https://rickandmortyapi.com/api/location/${typeLocation}`)
-				.then((res) => setRick(res.data))
-		}
-	}, [rickandmorty, searchDesdeProps, typeLocation])
-
+const Search = ({ rickandmorty, searchLocation, type, setTypeLocation }) => {
+	
+	
 	return (
 		<div className='Search'>
 			<div className='information'>
@@ -38,11 +31,11 @@ const Search = ({ rickandmorty, searchDesdeProps }) => {
 				<input
 					className='input'
 					type='text'
-					value={typeLocation}
+					value={type}
 					onChange={(e) => setTypeLocation(e.target.value)}
 					placeholder='Search Location'
 				/>
-				<button onClick={searchDesdeProps}>Search</button>
+				<button onClick={searchLocation}>Search</button>
 			</div>
 		</div>
 	)
