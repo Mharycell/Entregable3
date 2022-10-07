@@ -14,7 +14,6 @@ function App() {
 
 	useEffect(() => {
 		const randomId = Math.floor(Math.random() * 125) + 1
-
 		axios.get(`https://rickandmortyapi.com/api/location/${randomId}`).then((res) => {
 			setRick(res.data)
 		})
@@ -53,4 +52,4 @@ function App() {
 	)
 }
 
-export default App
+export default App;
